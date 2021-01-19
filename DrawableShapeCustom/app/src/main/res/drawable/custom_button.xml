@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Trong cặp thẻ <shape>…</shape> là nơi chúng ta chỉnh sửa hình dáng và background của Button.
+Trong cặp thẻ <selector>…</selector> là nơi chúng ta chỉnh sửa Button khi nó ở các trạng thái khác nhau
+như được nhấn, không được nhấn…
+
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/button_pressed"/>
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/button_disabled"/>
+
+    <item
+        android:drawable="@drawable/button_default"/>
+</selector>

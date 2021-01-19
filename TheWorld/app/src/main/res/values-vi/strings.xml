@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TheWorld</string>
+    <string name="text_Title">PHIẾU THÔNG TIN</string>
+    <string name="hint_Name">Nhập họ tên</string>
+    <string name="hint_Email">Nhập Email</string>
+    <string name="hint_Phone">Nhập số điện thoại</string>
+    <string name="text_Submit">Xác nhận</string>
+    <string name="text_hello">Chào bạn</string>
+    <string name="text_phonenum">Số điện thoại</string>
+</resources>

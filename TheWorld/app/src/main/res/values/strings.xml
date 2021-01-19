@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TheWorld</string>
+    <string name="text_Title">YOUR INFORMATION</string>
+    <string name="hint_Name">Enter name</string>
+    <string name="hint_Email">Enter email</string>
+    <string name="hint_Phone">Enter phone number</string>
+    <string name="text_Submit">"Confirm "</string>
+    <string name="text_hello">Hello</string>
+    <string name="text_email" translatable="false">Email</string>
+    <string name="text_phonenum">Phone number</string>
+</resources>
