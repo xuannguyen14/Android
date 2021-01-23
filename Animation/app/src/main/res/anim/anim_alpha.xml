@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Alpha là độ trong suốt của view từ 0 - > 1 -->
+<!--các thuộc tính repeat là những thuộc tính cao cấp hơn so vs 3 cái căn bản còn lại-->
+<!--android:repeatCount="infinite": lặp lại vô tận-->
+<!--android:fillAfter="true": giữ lại trạng thái cuối cùng-->
+<!--repeatMode: restart_mặc định từ 1->2, reverse: 2->1-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+    <alpha android:fromAlpha="1.0"
+        android:toAlpha="0.1"
+        android:repeatCount="2"
+        android:repeatMode="reverse"
+        android:duration="2000"/>
+</set>

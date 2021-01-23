@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+<!--    fromX hoặc fromY là dựa theo trục tọa độ, cả X và Y sẽ đi theo 45 độ, tự chỉnh sửa để xem cách hoạt động của chúng-->
+    <translate
+        android:fromXDelta="0"
+        android:toXDelta="450"
+        android:duration="2000"/>
+
+    <translate
+        android:startOffset="2000"
+        android:fromYDelta="0"
+        android:toYDelta="600"
+        android:duration="2000"/>
+
+    <translate
+        android:startOffset="4000"
+        android:fromXDelta="0"
+        android:toXDelta="-450"
+        android:duration="2000"/>
+
+    <translate
+        android:startOffset="6000"
+        android:fromXDelta="0"
+        android:toXDelta="450"
+        android:fromYDelta="0"
+        android:toYDelta="-600"
+        android:duration="2000"/>
+
+</set>
